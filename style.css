@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #30336b;
+  font-family: "lato", san-serif;
+  text-align: center;
+  margin: 0px;
+}
+form{
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  backgroun-color: white;
+  margin: 0 auto;
+  max-width: 450px;
+  background-color: white;
+  padding: 20px 30px;
+}
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.form-control label{
+  margin-bottom: 10px;
+  display: block;
+}
+.form-control input, 
+.form-control select,
+.form-control textarea{
+  border: 1px solid #777;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  font-family: inherit;
+}
+.form-control select{
+  height: 30px;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+  width: auto;
+  display: inline-block;
+}
+button{
+  display: block;
+  background-color: #30336b;
+  width: 100%;
+  border: 1px solid #777;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  padding: 10px;
+}
